@@ -1,5 +1,5 @@
 // const API = "http://localhost:5000/api";
-const API = "teamtaskmanager-production-f7bb.up.railway.app";
+const API = "teamtaskmanager-production-f7bb.up.railway.app/api";
 async function signup() {
     await fetch(`${API}/auth/signup`, {
         method: "POST",
